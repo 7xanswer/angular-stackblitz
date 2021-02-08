@@ -21,8 +21,6 @@ export class CartComponent {
     private formBuilder: FormBuilder
   ) {}
 
-  ngOnInit() {}
-
   onSubmit(): void {
     // Process checkout data here
     this.items = this.cartService.clearCart();
